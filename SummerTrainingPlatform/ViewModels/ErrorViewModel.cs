@@ -1,4 +1,4 @@
-namespace SummerTrainingPlatform.Models
+namespace SummerTrainingPlatform.ViewModels
 {
     public class ErrorViewModel
     {
