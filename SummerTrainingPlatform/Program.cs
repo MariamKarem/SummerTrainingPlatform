@@ -1,4 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using SummerTrainingPlatform.DataAccessLayer.Data.Context;
 namespace SummerTrainingPlatform
+
 {
     public class Program
     {
@@ -8,7 +11,10 @@ namespace SummerTrainingPlatform
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

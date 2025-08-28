@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerTrainingPlatform", "SummerTrainingPlatform\SummerTrainingPlatform.csproj", "{CE598219-00BB-4DCC-93ED-7AE696FF9902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerTrainingPlatform.DataAccessLayer", "SummerTrainingPlatform.DataAccessLayer\SummerTrainingPlatform.DataAccessLayer.csproj", "{191546C3-B220-4B16-8500-A3A29376C108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CE598219-00BB-4DCC-93ED-7AE696FF9902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE598219-00BB-4DCC-93ED-7AE696FF9902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE598219-00BB-4DCC-93ED-7AE696FF9902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191546C3-B220-4B16-8500-A3A29376C108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191546C3-B220-4B16-8500-A3A29376C108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191546C3-B220-4B16-8500-A3A29376C108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191546C3-B220-4B16-8500-A3A29376C108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
